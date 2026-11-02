@@ -1,0 +1,4 @@
+# rooms.txt  ->  room|seats
+Hall_A|40
+Hall_B|30
+Lab_1|20

@@ -1,0 +1,16 @@
+# campus_map.txt  ->  locationA,locationB,distance_in_metres
+Main_Gate,Admin_Block,150
+Main_Gate,Parking,80
+Admin_Block,Academic_Block_A,120
+Admin_Block,Library,200
+Academic_Block_A,Academic_Block_B,90
+Academic_Block_A,Library,110
+Academic_Block_B,Computer_Lab,70
+Academic_Block_B,Auditorium,160
+Library,Cafeteria,130
+Cafeteria,Sports_Complex,220
+Cafeteria,Hostel,180
+Hostel,Sports_Complex,100
+Computer_Lab,Auditorium,85
+Parking,Cafeteria,300
+Auditorium,Sports_Complex,250

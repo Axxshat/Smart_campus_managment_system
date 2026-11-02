@@ -1,0 +1,8 @@
+# staff.txt  ->  name|role|home_location   (role must match the request category)
+Ramesh|electrical|Admin_Block
+Suresh|electrical|Hostel
+Mahesh|plumbing|Cafeteria
+Dinesh|plumbing|Sports_Complex
+Pooja|it_support|Computer_Lab
+Amit|it_support|Library
+Kiran|housekeeping|Academic_Block_A

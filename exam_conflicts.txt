@@ -1,0 +1,11 @@
+# exam_conflicts.txt  ->  two subjects that share at least one student (cannot be in same slot)
+CS301 CS302
+CS301 CS303
+CS301 CS401
+CS302 CS303
+CS302 CS202
+CS203 CS301
+CS203 MA102
+MA102 CS401
+CS201 CS202
+CS201 CS203

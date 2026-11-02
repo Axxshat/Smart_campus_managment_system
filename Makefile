@@ -12,6 +12,10 @@ test: $(OBJ) tests/test_modules.cpp
 	$(CXX) $(CXXFLAGS) -o build/run_tests $^
 	./build/run_tests
 
+bench: $(OBJ) bench/benchmark.cpp
+	$(CXX) $(CXXFLAGS) -o build/run_bench $^
+	./build/run_bench
+
 build/%.o: src/%.cpp | build
 	$(CXX) $(CXXFLAGS) -c $< -o $@
 
@@ -21,4 +25,4 @@ build:
 clean:
 	rm -rf build smartcampus
 
-.PHONY: all test clean
+.PHONY: all test bench clean

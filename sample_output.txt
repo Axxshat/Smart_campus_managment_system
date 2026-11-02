@@ -1,0 +1,285 @@
+=====================================================
+   Integrated Smart Campus Management System
+   DSA-II PBL  |  Loaded: 11 locations, 11 courses, 40 students, 7 staff
+=====================================================
+
+MAIN MENU
+  1. Campus Navigation
+  2. Infrastructure Network Planning
+  3. Course Prerequisite Planner
+  4. Student Records
+  5. Service Requests
+  6. Exam Timetable
+  7. Integrated Services
+  0. Exit
+Choice: 
+--- Campus Navigation ---
+   1. Main_Gate
+   2. Admin_Block
+   3. Parking
+   4. Academic_Block_A
+   5. Library
+   6. Academic_Block_B
+   7. Computer_Lab
+   8. Auditorium
+   9. Cafeteria
+  10. Sports_Complex
+  11. Hostel
+From (number): To   (number): 1) Shortest distance (Dijkstra)  2) Fewest stops (BFS)  3) Explore from source (BFS/DFS):   Route: Hostel -> Sports_Complex -> Auditorium -> Computer_Lab
+  Total: 435 metres
+
+MAIN MENU
+  1. Campus Navigation
+  2. Infrastructure Network Planning
+  3. Course Prerequisite Planner
+  4. Student Records
+  5. Service Requests
+  6. Exam Timetable
+  7. Integrated Services
+  0. Exit
+Choice: 
+--- Infrastructure Network Planning (Kruskal MST) ---
+  Academic_Block_B   - Computer_Lab         70 m
+  Main_Gate          - Parking              80 m
+  Computer_Lab       - Auditorium           85 m
+  Academic_Block_A   - Academic_Block_B     90 m
+  Hostel             - Sports_Complex      100 m
+  Academic_Block_A   - Library             110 m
+  Admin_Block        - Academic_Block_A    120 m
+  Library            - Cafeteria           130 m
+  Main_Gate          - Admin_Block         150 m
+  Cafeteria          - Hostel              180 m
+  Minimum total cable length: 1115 m
+
+MAIN MENU
+  1. Campus Navigation
+  2. Infrastructure Network Planning
+  3. Course Prerequisite Planner
+  4. Student Records
+  5. Service Requests
+  6. Exam Timetable
+  7. Integrated Services
+  0. Exit
+Choice: 
+--- Course Prerequisite Planner (Topological Sort) ---
+  Semester 1: MA101  CS101  CS102  
+  Semester 2: MA102  CS203  CS201  CS202  
+  Semester 3: CS301  CS303  CS302  
+  Semester 4: CS401  
+
+MAIN MENU
+  1. Campus Navigation
+  2. Infrastructure Network Planning
+  3. Course Prerequisite Planner
+  4. Student Records
+  5. Service Requests
+  6. Exam Timetable
+  7. Integrated Services
+  0. Exit
+Choice: 
+--- Student Records (Hash Table + Trie) ---
+  1. Search by roll no.
+  2. Search by name prefix
+  3. Add student
+  4. Delete student
+  5. List all
+  6. Table statistics
+  0. Back
+Choice: Name starts with:   2501330100004 | Ananya Singh | CSE | Year 2 | CGPA 8.71
+  2601330100001 | Ananya Gupta | IT | Year 1 | CGPA 8.62
+  2401330100013 | Ananya Agarwal | ECE | Year 3 | CGPA 9.39
+
+--- Student Records (Hash Table + Trie) ---
+  1. Search by roll no.
+  2. Search by name prefix
+  3. Add student
+  4. Delete student
+  5. List all
+  6. Table statistics
+  0. Back
+Choice: Roll no.:   2501330100004 | Ananya Singh | CSE | Year 2 | CGPA 8.71
+
+--- Student Records (Hash Table + Trie) ---
+  1. Search by roll no.
+  2. Search by name prefix
+  3. Add student
+  4. Delete student
+  5. List all
+  6. Table statistics
+  0. Back
+Choice:   Records: 40  Buckets: 101  Load factor: 0.40  Longest chain: 2
+
+--- Student Records (Hash Table + Trie) ---
+  1. Search by roll no.
+  2. Search by name prefix
+  3. Add student
+  4. Delete student
+  5. List all
+  6. Table statistics
+  0. Back
+Choice: 
+MAIN MENU
+  1. Campus Navigation
+  2. Infrastructure Network Planning
+  3. Course Prerequisite Planner
+  4. Student Records
+  5. Service Requests
+  6. Exam Timetable
+  7. Integrated Services
+  0. Exit
+Choice: 
+--- Service Requests (Min-Heap)  clock=0  pending=0 ---
+  1. Submit request
+  2. View most urgent
+  3. Process most urgent
+  4. Change priority of a request
+  5. Advance time and escalate waiting requests
+  6. Save pending requests
+  7. Load pending requests
+  0. Back
+Choice: Priority (1 = emergency ... 5 = low): Location (name from campus map): Category (electrical/plumbing/it_support/housekeeping/general): Description:   Request #1 submitted.
+
+--- Service Requests (Min-Heap)  clock=0  pending=1 ---
+  1. Submit request
+  2. View most urgent
+  3. Process most urgent
+  4. Change priority of a request
+  5. Advance time and escalate waiting requests
+  6. Save pending requests
+  7. Load pending requests
+  0. Back
+Choice: Priority (1 = emergency ... 5 = low): Location (name from campus map): Category (electrical/plumbing/it_support/housekeeping/general): Description:   Request #2 submitted.
+
+--- Service Requests (Min-Heap)  clock=0  pending=2 ---
+  1. Submit request
+  2. View most urgent
+  3. Process most urgent
+  4. Change priority of a request
+  5. Advance time and escalate waiting requests
+  6. Save pending requests
+  7. Load pending requests
+  0. Back
+Choice: Priority (1 = emergency ... 5 = low): Location (name from campus map): Category (electrical/plumbing/it_support/housekeeping/general): Description:   Request #3 submitted.
+
+--- Service Requests (Min-Heap)  clock=0  pending=3 ---
+  1. Submit request
+  2. View most urgent
+  3. Process most urgent
+  4. Change priority of a request
+  5. Advance time and escalate waiting requests
+  6. Save pending requests
+  7. Load pending requests
+  0. Back
+Choice:   Next: #1 [P1] electrical @ Computer_Lab - Power outage in computer lab
+
+--- Service Requests (Min-Heap)  clock=0  pending=3 ---
+  1. Submit request
+  2. View most urgent
+  3. Process most urgent
+  4. Change priority of a request
+  5. Advance time and escalate waiting requests
+  6. Save pending requests
+  7. Load pending requests
+  0. Back
+Choice: Request id: New priority (1-5):   Updated.
+
+--- Service Requests (Min-Heap)  clock=0  pending=3 ---
+  1. Submit request
+  2. View most urgent
+  3. Process most urgent
+  4. Change priority of a request
+  5. Advance time and escalate waiting requests
+  6. Save pending requests
+  7. Load pending requests
+  0. Back
+Choice: Advance clock by (ticks): Escalate requests waiting at least (ticks):   Escalated 2 request(s).
+
+--- Service Requests (Min-Heap)  clock=20  pending=3 ---
+  1. Submit request
+  2. View most urgent
+  3. Process most urgent
+  4. Change priority of a request
+  5. Advance time and escalate waiting requests
+  6. Save pending requests
+  7. Load pending requests
+  0. Back
+Choice:   Next: #1 [P1] electrical @ Computer_Lab - Power outage in computer lab
+
+--- Service Requests (Min-Heap)  clock=20  pending=3 ---
+  1. Submit request
+  2. View most urgent
+  3. Process most urgent
+  4. Change priority of a request
+  5. Advance time and escalate waiting requests
+  6. Save pending requests
+  7. Load pending requests
+  0. Back
+Choice: 
+MAIN MENU
+  1. Campus Navigation
+  2. Infrastructure Network Planning
+  3. Course Prerequisite Planner
+  4. Student Records
+  5. Service Requests
+  6. Exam Timetable
+  7. Integrated Services
+  0. Exit
+Choice: 
+--- Exam Timetable (Graph Colouring) ---
+  Subjects: 11  Students: 40  Conflicts: 28  Seats per slot: 90
+  Slot 1 (27 students): CS301  CS102  CS401  
+  Slot 2 (25 students): MA102  CS302  
+  Slot 3 (27 students): CS201  CS101  
+  Slot 4 (25 students): CS202  MA101  
+  Slot 5 (24 students): CS203  CS303  
+  Slots used: 5   Clash free: yes   Minimum possible (exact search, no seat limit): 5
+Roll no. to show personal exam slots (blank to skip):   MA102 -> Slot 2
+  CS201 -> Slot 3
+  CS202 -> Slot 4
+  CS203 -> Slot 5
+
+MAIN MENU
+  1. Campus Navigation
+  2. Infrastructure Network Planning
+  3. Course Prerequisite Planner
+  4. Student Records
+  5. Service Requests
+  6. Exam Timetable
+  7. Integrated Services
+  0. Exit
+Choice: 
+--- Integrated Services ---
+  1. Dispatch nearest staff for the most urgent service request
+  2. Student dashboard (record + exam slots + route to exam hall)
+  0. Back
+Choice:   Handling: #1 [P1] electrical @ Computer_Lab - Power outage in computer lab
+  Assigned: Ramesh (electrical) from Admin_Block, 280 m away
+  Route: Admin_Block -> Academic_Block_A -> Academic_Block_B -> Computer_Lab
+
+--- Integrated Services ---
+  1. Dispatch nearest staff for the most urgent service request
+  2. Student dashboard (record + exam slots + route to exam hall)
+  0. Back
+Choice: Roll no.:   2501330100004 | Ananya Singh | CSE | Year 2 | CGPA 8.71
+  Exam MA102 -> Slot 2
+  Exam CS201 -> Slot 3
+  Exam CS202 -> Slot 4
+  Exam CS203 -> Slot 5
+  Hostel to Auditorium (exam hall): 350 m
+  Route: Hostel -> Sports_Complex -> Auditorium
+
+--- Integrated Services ---
+  1. Dispatch nearest staff for the most urgent service request
+  2. Student dashboard (record + exam slots + route to exam hall)
+  0. Back
+Choice: 
+MAIN MENU
+  1. Campus Navigation
+  2. Infrastructure Network Planning
+  3. Course Prerequisite Planner
+  4. Student Records
+  5. Service Requests
+  6. Exam Timetable
+  7. Integrated Services
+  0. Exit
+Choice: Goodbye!

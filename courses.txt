@@ -1,0 +1,12 @@
+# courses.txt  ->  CODE|Course Name|comma separated prerequisites (blank if none)
+MA101|Engineering Mathematics I|
+CS101|Programming in C|
+CS102|Digital Logic|
+MA102|Engineering Mathematics II|MA101
+CS201|Data Structures and Algorithms I|CS101
+CS202|Computer Organization|CS102
+CS203|Discrete Mathematics|MA101
+CS301|Data Structures and Algorithms II|CS201,CS203
+CS302|Operating Systems|CS201,CS202
+CS303|Database Management Systems|CS201
+CS401|Artificial Intelligence|CS301,MA102

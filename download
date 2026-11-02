@@ -1,0 +1,8 @@
+build/
+*.o
+*.exe
+a.out
+.vscode/
+.idea/
+smartcampus
+data/pending_requests.txt
